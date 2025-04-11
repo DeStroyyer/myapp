@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDENTIALS_ID = dockerhubkey
-        DOCKER_IMAGE = destroyyer/myapp
+        DOCKER_CREDENTIALS_ID = 'dockerhubkey'
+        DOCKER_IMAGE = 'destroyyer/myapp'
     
     }
 
